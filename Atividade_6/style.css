@@ -1,0 +1,157 @@
+/* Definindo o estilo do corpo da página */
+@import url('https://fonts.googleapis.com/css2?family=Bitstream+Vera+Sans+Mono&display=swap');
+
+body {
+    font-family: 'Bitstream Vera Sans Mono', monospace;
+    background-image: linear-gradient(to bottom, #ffffff, #000000);
+    margin: 0;
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    background-color: #333;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  /* Estilo do menu de navegação */
+  nav {
+    background-color: #555;
+   
+  }
+  
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #fdfffd;
+    color: black;
+  }
+  
+  /* Estilo do conteúdo principal */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-top: 40px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  ul {
+    font-size: 18px;
+    line-height: 1.5;
+    list-style-type: disc;
+    margin-left: 30px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  /* Estilo do formulário */
+  form {
+    max-width: 500px;
+    margin: right;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  legend {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #555;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitstream+Vera+Sans+Mono&display=swap');
+
+body {
+    font-family: 'Bitstream Vera Sans Mono', monospace;
+    background-image: linear-gradient(to bottom, #201c00, #ff0000);
+    margin: 0;
+  }
+  header {
+    background-color: #020000;
+    text-align: center;
+    color: aliceblue;
+    padding: 30px;
+  }
+  
